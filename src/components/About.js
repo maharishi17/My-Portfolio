@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about" className="py-20">
       <h2 className="text-3xl font-bold text-light mb-8">
-        <span className="text-secondary">01.</span> About Me
+        <span className="text-secondary"></span> About Me
       </h2>
       <div className="grid md:grid-cols-2 gap-8">
         <div className="text-tertiary">
@@ -27,14 +27,7 @@ const About = () => {
             projects, or learning new skills to enhance my development capabilities.
           </p>
         </div>
-        <div className="relative">
-          <div className="w-full h-[300px] bg-secondary/10 rounded-lg">
-            {/* Add your image here */}
-            <div className="absolute inset-0 flex items-center justify-center text-tertiary">
-              [Your Image]
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   );

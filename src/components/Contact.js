@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20">
       <h2 className="text-3xl font-bold text-light mb-8">
-        <span className="text-secondary">05.</span> Contact
+        <span className="text-secondary"></span> Contact
       </h2>
 
       <div className="max-w-2xl mx-auto">
